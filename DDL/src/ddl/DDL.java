@@ -8,6 +8,7 @@ public class DDL {
         return (Math.pow(r, 2) * Math.PI * m);
     }
 
+    //felszín számítás
     public static double hengerFelszin(double r, double m) {
         return (2 * Math.pow(r, 2) * Math.PI + 2 * r * Math.PI * m);
     }
