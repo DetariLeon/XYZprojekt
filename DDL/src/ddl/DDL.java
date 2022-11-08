@@ -1,5 +1,7 @@
 package ddl;
 
+import java.util.Scanner;
+
 public class DDL {
 
     public static double hengerTerfogat(double r, double m) {
@@ -11,7 +13,16 @@ public class DDL {
     }
 
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner bill = new Scanner(System.in);
+        double magassag, sugar;
+
+        System.out.println("Adja meg a magassagat a hengernek! ");
+        magassag = bill.nextDouble();
+        System.out.println("Adja meg a sugarat a hengernek! ");
+        sugar = bill.nextDouble();
+
+        System.out.println("A henger terfogata: " + hengerTerfogat(sugar, magassag) + "cm^3");
+        System.out.println("A henger felszine: " + hengerFelszin(sugar, magassag) + "cm^2");
     }
 
 }
