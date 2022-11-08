@@ -15,6 +15,7 @@ public class DDL {
     }
 
     public static void main(String[] args) {
+        //A főprogram
         Scanner bill = new Scanner(System.in);
         double magassag, sugar;
 
