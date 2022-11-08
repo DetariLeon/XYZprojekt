@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class DDL {
 
+    //terfogat szamitas
     public static double hengerTerfogat(double r, double m) {
         return (Math.pow(r, 2) * Math.PI * m);
     }
