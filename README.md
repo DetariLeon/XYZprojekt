@@ -1,2 +1,2 @@
 # XYZprojekt
-Süge,Dávid,Leon
+Dominik, Dávid, Leon
